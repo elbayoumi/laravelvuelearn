@@ -1,3 +1,228 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+.btn-main {
+    background-color: #ba1971;
+    color: white;
+}
+.login{
+height: 2.5rem;
+margin: auto;
+}
+.bg-main-color {
+    background-color: #ba1971;
+}
+
+
+
+.cart {
+    min-width: 2rem;
+    max-width: 6rem;
+}
+
+.main-text-color {
+    color: #c23381 !important;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 2px white solid;
+}
+
+.main-text-color:hover {
+    border-bottom: 2px #c23381 solid;
+}
+
+.logo {
+    display: inline-block;
+    min-width: 2rem;
+    max-width: 7rem;
+    margin: 0 100px;
+}
+
+nav {
+    border-bottom: 1px #c23381 solid;
+}
+
+.main {
+    text-align: end;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.main main {
+    border: black 1px solid;
+    padding: 15px;
+    max-height: 200px;
+    justify-content: end;
+}
+
+.main main ul {
+    /* min-width: 400px; */
+    /* display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 0; */
+}
+
+.main main .h2 {
+    padding: 10px 0;
+}
+
+/* .cover{
+        object-fit: cover;
+        max-height: 200px;
+        display: block;
+
+    } */
+.card-title {
+    color: #6aaaa3 !important;
+    font-weight: bold;
+}
+
+.card-img-info {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.star {
+    /* width: 2rem; */
+    /* display: block; */
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #ff5757;
+}
+
+.btn-dis {
+    background-color: #ff5757;
+    color: white;
+}
+
+.card-input {
+    max-width: 8rem;
+    max-height: 1.5rem;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sort-icons>* {
+    /* max-width: 2rem; */
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #c23381;
+
+    /* color: red; */
+    /* background-color: blue; */
+    /* border-color: green; */
+    /* opacity: 0.5; */
+    /* filter: brightness(1) invert(5); */
+
+
+}
+
+.card-pop {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Additional styling if needed */
+    padding: 5px 30px;
+    background-color: #d6d6d6;
+    opacity: .9;
+}
+
+.card-btn-info {
+    height: 2.2rem;
+    text-align: center;
+    padding: auto;
+    background-color: #ba1971;
+    color: white;
+}
+iconify-icon{
+    margin: .5rem;
+}
+.bg-footer-end{
+    background-color: #f3f4f1;
+}
+
+footer{
+    padding: 1rem;
+    background-color: #f3f4f1;
+
+    width: 100%;
+    height:5rem ;
+}
+footer section{
+    margin: auto;
+}
+
+@media (min-width: 1164px) {
+    .main-nav {
+        margin: 0 100px;
+    }
+    footer section{
+    width: 50%;
+    margin: auto;
+}
+.main main ul li{
+    margin: 10px;
+}
+
+}
+
+@media (max-width: 576px) {
+    .card-pop {
+        top: 30%;
+
+    }
+
+    .cart {
+        min-width: 2rem;
+        max-width: 3rem;
+    }
+
+    .logo {
+
+        margin: 0;
+    }
+
+    .main main {
+        /* max-height: 200px; */
+        /* Adjust the height based on your needs */
+        /* overflow-y: auto;
+        overflow-x: scroll;
+        font-weight: 100;
+        font-size: 0.1rem; */
+
+    }
+
+    .main main ul {
+        font-size: small;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .main main ul li{
+    margin: 5px;
+}
+    .sort-icons {
+        display: none !important;
+    }
+
+    /* .sm-position-absolute{
+        position: relative;
+        top: 50%;
+        left: 50%;
+    } */
+}
